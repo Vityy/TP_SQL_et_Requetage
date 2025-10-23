@@ -5,7 +5,7 @@
 CREATE TABLE article(
 	id INT(11) PRIMARY KEY,
     ref VARCHAR(13) UNIQUE NOT NULL,
-    designation VARCHAR(255) UNIQUE,
+    designation VARCHAR(255),
     prix DECIMAL(7, 2) NOT NULL,
     id_fou INT(11)
 );
