@@ -27,4 +27,13 @@ INSERT INTO article(id, ref, designation, prix, id_fou) VALUES
 -- INSERTION BON --
 -------------------
 
-INSERT INTO bon(id, numero, delai, id_fou) VALUES(1, 01, 3, 1);
+INSERT INTO bon(id, numero, delai, id_fou) VALUES(1, 1, 3, 1);
+
+---------------------
+-- INSERTION COMPO --
+---------------------
+
+INSERT INTO compo(qte, id_art, id_bon) VALUES
+(3, 1, 1),
+(4, 5, 1),
+(1, 7, 1);
